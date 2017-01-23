@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>chooseServelet</servlet-name>
+    <servlet-class>servlet.chooseServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLoginAction</servlet-name>
+    <servlet-class>Action.UserLoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MLogAction</servlet-name>
+    <servlet-class>Action.MLogAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAutoAction</servlet-name>
+    <servlet-class>Action.AddAutoAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Addproduct</servlet-name>
+    <servlet-class>Action.Addproduct</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>Action.Delete</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Change</servlet-name>
+    <servlet-class>Action.Change</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>chooseServelet</servlet-name>
+    <url-pattern>/servlet/chooseServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLoginAction</servlet-name>
+    <url-pattern>/Action/UserLoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAutoAction</servlet-name>
+    <url-pattern>/Action/AddAutoAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addproduct</servlet-name>
+    <url-pattern>/Action/Addproduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Change</servlet-name>
+    <url-pattern>/Action/Change</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Action/Delete</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping>
+    <servlet-name>MLogAction</servlet-name>
+    <url-pattern>/Action/MLogAction</url-pattern>
+  </servlet-mapping>
+</web-app>
